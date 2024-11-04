@@ -1,0 +1,24 @@
+@font-face {
+    font-family: FBold ;
+    src: url(../Fonts/Helvetica\ Neu\ Bold.ttf);
+}
+@font-face {
+    font-family: Font ;
+    src: url(../Fonts/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family: FBlackCond ;
+    src: url(../Fonts/HelveticaNeue\ BlackCond.ttf);
+}
+@font-face {
+    font-family: FLight ;
+    src: url(../Fonts/HelveticaNeue\ Light.ttf);
+}
+@font-face {
+    font-family: FMedium ;
+    src: url(../Fonts/HelveticaNeue\ Medium.ttf);
+}
+@font-face {
+    font-family: FThin ;
+    src: url(../Fonts/HelveticaNeue\ Thin.ttf);
+}

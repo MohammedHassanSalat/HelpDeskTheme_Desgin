@@ -9,6 +9,7 @@
     <title>Register</title>
     <link rel="stylesheet" href="cssFiles/bootstrap.min.css">
     <link rel="stylesheet" href="cssFiles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -66,7 +67,7 @@
     <section class="Lsec1 d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                     <div class="item-head">
                         <h2>Login</h2>
                         <p> <span> <a href="index.html">HOME</a> </span> / LOGIN </p>
@@ -79,11 +80,11 @@
 
 
     <!-- Lsec2 -->
-    <section class="Lsec2">
+    <section class="Lsec2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
         <div class="container">
             <div class="iteams">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
                         <div class="form1">
                             <p class="p1">LOGIN</p>
                             <form>
@@ -106,7 +107,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="800">
                         <div class="form1">
                             <p class="p1">Register</p>
                             <form>
@@ -126,7 +127,7 @@
 
 
     <!-- LFooter -->
-    <footer class="footer">
+    <footer class="footer" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
@@ -168,9 +169,9 @@
     <!-- js files -->
     <script src="jsFiles/bootstrap.bundle.min.js"></script>
     <script src="jsFiles/script.js"></script>
-    <script src="jsFiles/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        new WOW().init();
+        AOS.init();
     </script>
 </body>
 
